@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 require('dotenv').config();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 8080;
 const Stripe = require('stripe')(process.env.STRIPE_KEY);
 const cors = require("cors");
 
